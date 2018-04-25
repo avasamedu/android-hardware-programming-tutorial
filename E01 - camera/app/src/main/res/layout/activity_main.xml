@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="samenta.ir.camera.MainActivity">
+
+    <ImageView
+
+        android:id="@+id/imageViewCamera"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <Button
+        android:id="@+id/btnTakePic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Picture"
+        android:background="#328b4b"
+        android:textColor="#ffffff"/>
+</LinearLayout>
