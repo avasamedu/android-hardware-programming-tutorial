@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="#0000ff"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="چراغ قوه اندرویدی" />
+
+    <Button
+        android:onClick="TurnOn"
+        android:layout_margin="10dp"
+        android:background="#1ba549"
+        android:id="@+id/btnOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="روشن" />
+
+    <Button
+        android:onClick="TurnOff"
+        android:layout_margin="10dp"
+        android:background="#ff00"
+        android:id="@+id/btnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="خاموش" />
+</LinearLayout>
