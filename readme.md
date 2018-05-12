@@ -1,4 +1,5 @@
-Source codes of android hardware programming tutorial by Samenta
+Source codes of android hardware programming tutorial
+
 By mr sam nikzad
 In http://samenta.ir
 
